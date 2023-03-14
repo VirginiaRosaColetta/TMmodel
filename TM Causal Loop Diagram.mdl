@@ -1,0 +1,443 @@
+{UTF-8}
+river water level  = A FUNCTION OF( "rainfall intensity/frequency",sea water level)
+	~	
+	~		|
+
+sea water level  = A FUNCTION OF( "extreme storm events intensity/frequency","extreme tide levels intensity/frequency"\
+		)
+	~	
+	~		|
+
+pluvial flood  = A FUNCTION OF( urban stormwater system capacity)
+	~	
+	~		|
+
+environmental quality of the urban system  = A FUNCTION OF( sediments and pollutants removal\
+		,urban drainage systems capacity,urban grey and BG infrastructure1,urban stormwater system capacity\
+		)
+	~	
+	~		|
+
+groundwater level  = A FUNCTION OF( "rainfall intensity/frequency")
+	~	
+	~		|
+
+tidal flood  = A FUNCTION OF( river water level,Thames tidal defences effectiveness)
+	~	
+	~		|
+
+urban drainage systems capacity  = A FUNCTION OF( ditches and dykes system capacity,"existing SuDS (lakes and canals) capacity"\
+		,sediments and pollutants removal,surface runoff)
+	~	
+	~		|
+
+urban stormwater system capacity  = A FUNCTION OF( existing systems maintenance,sediments and pollutants removal\
+		,surface runoff)
+	~	
+	~		|
+
+fluvial flood  = A FUNCTION OF( urban drainage systems capacity)
+	~	
+	~		|
+
+attractiveness of local area for investors  = A FUNCTION OF( attractiveness of local area for residents\
+		,impact on large businesses,quality of BG public spaces,urban grey and BG infrastructure\
+		)
+	~	
+	~		|
+
+attractiveness of local area for residents  = A FUNCTION OF( "impact on small businesses/families"\
+		,quality of BG public spaces,residents' health,urban grey and BG infrastructure)
+	~	
+	~		|
+
+infrastructure damage  = A FUNCTION OF( flood,urban grey and BG infrastructure)
+	~	
+	~		|
+
+private properties damage  = A FUNCTION OF( flood,individual prevention measures,urban grey and BG infrastructure1\
+		)
+	~	
+	~		|
+
+residents' health  = A FUNCTION OF( flood risk monitoring and warning systems,individual prevention measures\
+		,infrastructure damage,private properties damage,public realm damage,residents' awareness and preparedness to flood event\
+		,urban grey and BG infrastructure1,use of BG public spaces)
+	~	
+	~		|
+
+urban grey and BG infrastructure  = A FUNCTION OF( )
+	~	
+	~		|
+
+BG public spaces maintenance  = A FUNCTION OF( )
+	~	
+	~		|
+
+biodiversity  = A FUNCTION OF( environmental quality of the urban system,green areas,\
+		use of BG public spaces)
+	~	
+	~		|
+
+economic losses  = A FUNCTION OF( flood risk monitoring and warning systems,infrastructure damage\
+		,insurance policies,private properties damage,private properties value,productive activities operation\
+		,public realm damage)
+	~	
+	~		|
+
+ditches and dykes system capacity  = A FUNCTION OF( existing systems maintenance)
+	~	
+	~		|
+
+"existing SuDS (lakes and canals) capacity"  = A FUNCTION OF( existing systems maintenance\
+		)
+	~	
+	~		|
+
+existing systems maintenance  = A FUNCTION OF( )
+	~	
+	~		|
+
+insurance policies  = A FUNCTION OF( residents' awareness and preparedness to flood event\
+		)
+	~	
+	~		|
+
+water demand  = A FUNCTION OF( housing demand)
+	~	
+	~		|
+
+local community engagement  = A FUNCTION OF( )
+	~	
+	~		|
+
+flood risk monitoring and warning systems  = A FUNCTION OF( )
+	~	
+	~		|
+
+green areas  = A FUNCTION OF( climate change,impervious areas,sustainable urban development\
+		)
+	~	
+	~		|
+
+groundwater flood  = A FUNCTION OF( groundwater level,soil retention capacity)
+	~	
+	~		|
+
+private properties value  = A FUNCTION OF( private properties damage,quality of BG public spaces\
+		)
+	~	
+	~		|
+
+housing demand  = A FUNCTION OF( attractiveness of local area for investors,population growth\
+		)
+	~	
+	~		|
+
+"impact on small businesses/families"  = A FUNCTION OF( economic losses)
+	~	
+	~		|
+
+urban grey and BG infrastructure1  = A FUNCTION OF( )
+	~	
+	~		|
+
+individual prevention measures  = A FUNCTION OF( residents' awareness and preparedness to flood event\
+		)
+	~	
+	~		|
+
+use of BG public spaces  = A FUNCTION OF( attractiveness of local area for residents,\
+		quality of BG public spaces)
+	~	
+	~		|
+
+public realm damage  = A FUNCTION OF( flood,urban grey and BG infrastructure1)
+	~	
+	~		|
+
+quality of BG public spaces  = A FUNCTION OF( BG public spaces maintenance,biodiversity\
+		,environmental quality of the urban system,infrastructure damage,public realm damage\
+		,urban grey and BG infrastructure1)
+	~	
+	~		|
+
+population growth  = A FUNCTION OF( )
+	~	
+	~		|
+
+surface runoff  = A FUNCTION OF( "rainfall intensity/frequency",soil retention capacity\
+		,urban grey and BG infrastructure1)
+	~	
+	~		|
+
+sustainable urban development  = A FUNCTION OF( )
+	~	
+	~		|
+
+residents' awareness and preparedness to flood event  = A FUNCTION OF( flood risk monitoring and warning systems\
+		,"impact on small businesses/families",local community engagement)
+	~	
+	~		|
+
+Thames tidal defences effectiveness  = A FUNCTION OF( existing systems maintenance)
+	~	
+	~		|
+
+sediments and pollutants removal  = A FUNCTION OF( urban grey and BG infrastructure1)
+	~	
+	~		|
+
+climate change  = A FUNCTION OF( )
+	~	
+	~		|
+
+"extreme storm events intensity/frequency"  = A FUNCTION OF( climate change)
+	~	
+	~		|
+
+"extreme tide levels intensity/frequency"  = A FUNCTION OF( climate change)
+	~	
+	~		|
+
+flood  = A FUNCTION OF( groundwater flood,fluvial flood,pluvial flood,tidal flood)
+	~	
+	~		|
+
+impact on large businesses  = A FUNCTION OF( economic losses)
+	~	
+	~		|
+
+impervious areas  = A FUNCTION OF( land consumption fot building)
+	~	
+	~		|
+
+land consumption fot building  = A FUNCTION OF( attractiveness of local area for investors\
+		,housing demand)
+	~	
+	~		|
+
+productive activities operation  = A FUNCTION OF( infrastructure damage)
+	~	
+	~		|
+
+"rainfall intensity/frequency"  = A FUNCTION OF( climate change)
+	~	
+	~		|
+
+soil retention capacity  = A FUNCTION OF( green areas)
+	~	
+	~		|
+
+********************************************************
+	.Control
+********************************************************~
+		Simulation Control Parameters
+	|
+
+FINAL TIME  = 100
+	~	Month
+	~	The final time for the simulation.
+	|
+
+INITIAL TIME  = 0
+	~	Month
+	~	The initial time for the simulation.
+	|
+
+SAVEPER  = 
+        TIME STEP
+	~	Month [0,?]
+	~	The frequency with which output is stored.
+	|
+
+TIME STEP  = 1
+	~	Month [0,?]
+	~	The time step for the simulation.
+	|
+
+\\\---/// Sketch information - do not modify anything except names
+V300  Do not put anything below this section - it will be ignored
+*View 1
+$192-192-192,0,Times New Roman|12||0-0-0|0-0-0|0-0-255|-1--1--1|-1--1--1|96,96,50,0
+10,1,climate change,-289,-71,45,31,8,131,0,40,0,0,0,0,0-0-0,0-0-0,Arial|20||0-0-0,0,0,0,0,0,0
+10,2,green areas,516,-56,72,15,8,3,0,40,0,0,0,0,0-0-0,0-0-0,Arial|20||0-0-0,0,0,0,0,0,0
+10,3,"rainfall intensity/frequency",37,123,111,31,8,3,0,40,0,0,0,0,0-0-0,0-0-0,Arial|20||0-0-0,0,0,0,0,0,0
+10,4,"extreme storm events intensity/frequency",-281,135,129,31,8,3,0,40,0,0,0,0,0-0-0,0-0-0,Arial|20||0-0-0,0,0,0,0,0,0
+10,5,"extreme tide levels intensity/frequency",-550,127,112,31,8,3,0,40,0,0,0,0,0-0-0,0-0-0,Arial|20||0-0-0,0,0,0,0,0,0
+1,6,1,2,0,0,45,12,42,192,0,-1--1--1,Arial|20||0-0-0,1|(91,-65)|
+1,7,1,3,0,0,43,12,42,64,0,-1--1--1,Arial|20||0-0-0,1|(-138,19)|
+1,8,1,4,0,0,43,12,42,64,0,-1--1--1,Arial|20||0-0-0,1|(-286,23)|
+1,9,1,5,1,0,43,12,42,64,0,-1--1--1,Arial|20||0-0-0,1|(-416,37)|
+10,10,surface runoff,290,177,45,31,8,131,0,40,0,0,0,0,0-0-0,0-0-0,Arial|20||0-0-0,0,0,0,0,0,0
+1,11,3,10,1,0,43,13,42,192,0,-1--1--1,Arial|20||0-0-0,1|(196,111)|
+10,12,sea water level,-551,303,59,31,8,3,0,40,0,0,0,0,0-0-0,0-0-0,Arial|20||0-0-0,0,0,0,0,0,0
+1,13,5,12,1,0,43,12,42,64,0,-1--1--1,Arial|20||0-0-0,1|(-649,195)|
+1,14,4,12,1,0,43,12,42,192,0,-1--1--1,Arial|20||0-0-0,1|(-405,251)|
+10,15,tidal flood,-296,453,58,17,8,3,0,42,0,0,0,0,-1--1--1,0-0-0,Arial|20||255-0-0,0,0,0,0,0,0
+10,16,pluvial flood,704,462,72,15,8,3,0,42,0,0,0,0,0-0-0,0-0-0,Arial|20||255-0-0,0,0,0,0,0,0
+10,17,flood,680,261,30,17,8,3,0,40,0,0,0,0,0-0-0,0-0-0,Arial|20||0-0-0,0,0,0,0,0,0
+1,18,16,17,1,0,43,13,43,64,0,0-0-0,Arial|20||0-0-0,1|(706,359)|
+10,19,fluvial flood,446,479,68,15,8,3,0,42,0,0,0,0,0-0-0,0-0-0,Arial|20||255-0-0,0,0,0,0,0,0
+1,20,19,17,1,0,43,13,43,64,0,0-0-0,Arial|20||0-0-0,1|(564,398)|
+10,21,groundwater level,-72,340,76,31,8,3,0,40,0,0,0,0,0-0-0,0-0-0,Arial|20||0-0-0,0,0,0,0,0,0
+1,22,3,21,1,0,43,12,42,64,0,-1--1--1,Arial|20||0-0-0,1|(11,225)|
+10,23,groundwater flood,89,398,76,31,8,3,0,42,0,0,0,0,0-0-0,0-0-0,Arial|20||255-0-0,0,0,0,0,0,0
+1,24,21,23,1,0,43,12,42,64,0,-1--1--1,Arial|20||0-0-0,1|(-31,318)|
+1,25,23,17,1,0,43,13,43,192,0,0-0-0,Arial|20||0-0-0,1|(368,361)|
+10,26,river water level,-276,284,64,31,8,3,0,40,0,0,0,0,0-0-0,0-0-0,Arial|20||0-0-0,0,0,0,0,0,0
+1,27,3,26,1,0,43,12,42,192,0,-1--1--1,Arial|20||0-0-0,1|(-69,207)|
+10,28,soil retention capacity,375,27,77,31,8,3,0,40,0,0,0,0,0-0-0,0-0-0,Arial|20||0-0-0,0,0,0,0,0,0
+1,29,2,28,1,0,43,13,43,64,0,0-0-0,Arial|20||0-0-0,1|(432,-17)|
+1,30,28,10,1,0,45,13,43,64,0,0-0-0,Arial|20||0-0-0,1|(326,88)|
+10,31,urban drainage systems capacity,-15,562,103,31,8,3,0,40,0,0,0,0,0-0-0,0-0-0,Arial|20||0-0-0,0,0,0,0,0,0
+10,32,urban stormwater system capacity,533,789,106,31,8,131,0,40,0,0,0,0,0-0-0,0-0-0,Arial|20||0-0-0,0,0,0,0,0,0
+10,33,"existing SuDS (lakes and canals) capacity",221,774,124,31,8,3,0,40,0,0,0,0,0-0-0,0-0-0,Arial|20||0-0-0,0,0,0,0,0,0
+1,34,33,31,1,0,43,12,42,64,0,-1--1--1,Arial|20||0-0-0,1|(107,744)|
+1,35,31,19,1,0,45,12,43,192,0,0-0-0,Arial|20||0-0-0,1|(374,532)|
+1,36,15,17,1,0,43,12,42,64,0,-1--1--1,Arial|20||0-0-0,1|(94,470)|
+10,37,ditches and dykes system capacity,-291,747,108,31,8,3,0,40,0,0,0,0,0-0-0,0-0-0,Arial|20||0-0-0,0,0,0,0,0,0
+1,38,37,31,1,0,43,12,42,192,0,-1--1--1,Arial|20||0-0-0,1|(-39,597)|
+10,39,sediments and pollutants removal,1139,701,110,31,8,3,0,40,0,0,0,0,0-0-0,0-0-0,Arial|20||0-0-0,0,0,0,0,0,0
+1,40,39,31,1,0,43,12,42,192,0,-1--1--1,Arial|20||0-0-0,1|(748,744)|
+10,41,environmental quality of the urban system,1252,559,127,31,8,3,0,40,0,0,0,0,0-0-0,0-0-0,Arial|20||0-0-0,0,0,0,0,0,0
+1,42,39,41,1,0,43,12,42,64,0,-1--1--1,Arial|20||0-0-0,1|(1201,639)|
+1,43,31,41,1,0,43,12,42,64,0,-1--1--1,Arial|20||0-0-0,1|(587,397)|
+10,44,private properties damage,777,163,106,31,8,3,0,40,0,0,0,0,0-0-0,0-0-0,Arial|20||0-0-0,0,0,0,0,0,0
+1,45,17,44,1,0,43,13,43,64,0,0-0-0,Arial|20||0-0-0,1|(707,208)|
+10,46,private properties value,884,-41,97,31,8,3,0,40,0,0,0,0,0-0-0,0-0-0,Arial|20||0-0-0,0,0,0,0,0,0
+10,47,economic losses,1097,111,58,31,8,131,0,40,0,0,0,0,0-0-0,0-0-0,Arial|20||0-0-0,0,0,0,0,0,0
+1,48,44,46,1,0,45,13,43,64,0,0-0-0,Arial|20||0-0-0,1|(766,79)|
+1,49,46,47,1,0,45,13,43,64,0,0-0-0,Arial|20||0-0-0,1|(1040,1)|
+1,50,44,47,1,0,43,13,43,64,0,0-0-0,Arial|20||0-0-0,1|(950,222)|
+10,51,biodiversity,1573,-139,72,34,8,131,0,42,0,0,0,0,0-0-0,0-0-0,Arial|20||255-128-0,0,0,0,0,0,0
+1,52,2,51,1,0,43,13,43,65,0,0-0-0,Arial|20||0-0-0,1|(1356,-28)|
+10,53,infrastructure damage,691,-103,79,31,8,3,0,40,0,0,0,0,0-0-0,0-0-0,Arial|20||0-0-0,0,0,0,0,0,0
+1,54,17,53,1,0,43,13,43,64,0,0-0-0,Arial|20||0-0-0,1|(644,103)|
+10,55,productive activities operation,785,-279,112,31,8,3,0,40,0,0,0,0,0-0-0,0-0-0,Arial|20||0-0-0,0,0,0,0,0,0
+1,56,53,55,1,0,45,13,43,64,0,0-0-0,Arial|20||0-0-0,1|(709,-170)|
+1,57,55,47,1,0,45,13,43,64,0,0-0-0,Arial|20||0-0-0,1|(1097,-174)|
+1,58,53,47,1,0,43,13,43,64,0,0-0-0,Arial|20||0-0-0,1|(738,69)|
+10,59,public realm damage,949,359,74,31,8,3,0,40,0,0,0,0,0-0-0,0-0-0,Arial|20||0-0-0,0,0,0,0,0,0
+1,60,17,59,1,0,43,13,43,64,0,0-0-0,Arial|20||0-0-0,1|(761,334)|
+1,61,59,47,1,0,43,13,43,64,0,0-0-0,Arial|20||0-0-0,1|(1091,261)|
+10,62,quality of BG public spaces,1268,-208,83,31,8,131,0,42,0,0,0,0,0-0-0,0-0-0,Arial|20||255-128-0,0,0,0,0,0,0
+10,63,use of BG public spaces,1508,-257,99,31,8,3,0,42,0,0,0,0,0-0-0,0-0-0,Arial|20||255-128-0,0,0,0,0,0,0
+1,64,51,62,1,0,43,13,43,64,0,0-0-0,Arial|20||0-0-0,1|(1311,-138)|
+1,65,62,63,1,0,43,13,43,64,0,0-0-0,Arial|20||0-0-0,1|(1297,-259)|
+1,66,63,51,1,0,45,13,43,65,0,0-0-0,Arial|20||0-0-0,1|(1587,-200)|
+1,67,41,62,1,0,43,12,42,192,0,-1--1--1,Arial|20||0-0-0,1|(1170,171)|
+1,68,53,62,1,0,45,13,43,64,0,0-0-0,Arial|20||0-0-0,1|(1027,-111)|
+1,69,59,62,1,0,45,13,43,64,0,0-0-0,Arial|20||0-0-0,1|(1279,35)|
+10,70,impact on large businesses,938,-377,93,31,8,3,0,40,0,0,0,0,0-0-0,0-0-0,Arial|20||0-0-0,0,0,0,0,0,0
+1,71,47,70,1,0,43,13,43,64,0,0-0-0,Arial|20||0-0-0,1|(1083,-142)|
+10,72,attractiveness of local area for investors,781,-479,129,31,8,131,0,40,0,0,0,0,0-0-0,0-0-0,Arial|20||0-0-0,0,0,0,0,0,0
+10,73,land consumption fot building,499,-366,106,31,8,3,0,42,0,0,0,0,0-0-0,0-0-0,Arial|20||255-128-0,0,0,0,0,0,0
+1,74,72,73,1,0,43,13,43,65,0,0-0-0,Arial|20||0-0-0,1|(581,-438)|
+10,75,impervious areas,471,-190,67,31,8,3,0,40,0,0,0,0,0-0-0,0-0-0,Arial|20||0-0-0,0,0,0,0,0,0
+1,76,73,75,1,0,43,13,43,64,0,0-0-0,Arial|20||0-0-0,1|(467,-284)|
+1,77,75,2,1,0,45,13,43,64,0,0-0-0,Arial|20||0-0-0,1|(481,-123)|
+10,78,attractiveness of local area for residents,1182,-820,129,31,8,131,0,40,0,0,0,0,0-0-0,0-0-0,Arial|20||0-0-0,0,0,0,0,0,0
+1,79,78,72,1,0,43,13,43,192,0,0-0-0,Arial|20||0-0-0,1|(859,-674)|
+10,80,housing demand,378,-520,50,31,8,3,0,40,0,0,0,0,0-0-0,0-0-0,Arial|20||0-0-0,0,0,0,0,0,0
+1,81,72,80,1,0,43,13,43,65,0,0-0-0,Arial|20||0-0-0,1|(425,-548)|
+1,82,80,73,1,0,43,13,43,65,0,0-0-0,Arial|20||0-0-0,1|(374,-426)|
+10,83,population growth,107,-522,63,31,8,3,0,40,0,0,0,0,0-0-0,0-0-0,Arial|20||0-0-0,0,0,0,0,0,0
+1,84,83,80,0,0,43,12,42,65,0,-1--1--1,Arial|20||0-0-0,1|(240,-521)|
+10,85,water demand,122,-648,86,15,8,131,0,42,0,0,0,0,0-0-0,0-0-0,Arial|20||255-128-0,0,0,0,0,0,0
+1,86,80,85,1,0,43,12,42,64,0,-1--1--1,Arial|20||0-0-0,1|(283,-614)|
+1,87,78,63,1,0,43,13,43,64,0,0-0-0,Arial|20||0-0-0,1|(1583,-633)|
+10,88,residents' awareness and preparedness to flood event,1437,-565,127,46,8,3,0,40,0,0,0,0,0-0-0,0-0-0,Arial|20||0-0-0,0,0,0,0,0,0
+10,89,insurance policies,1715,-369,59,31,8,3,0,40,0,0,0,0,0-0-0,0-0-0,Arial|20||0-0-0,0,0,0,0,0,0
+1,90,88,89,1,0,43,13,43,64,0,0-0-0,Arial|20||0-0-0,1|(1620,-493)|
+1,91,89,47,1,0,45,13,43,65,0,0-0-0,Arial|20||0-0-0,1|(1604,30)|
+10,92,"impact on small businesses/families",1145,-483,118,31,8,3,0,40,0,0,0,0,0-0-0,0-0-0,Arial|20||0-0-0,0,0,0,0,0,0
+1,93,47,92,1,0,43,13,43,64,0,0-0-0,Arial|20||0-0-0,1|(985,-252)|
+1,94,92,88,1,0,43,13,43,65,0,0-0-0,Arial|20||0-0-0,1|(1265,-539)|
+1,95,70,72,1,0,45,13,43,64,0,0-0-0,Arial|20||0-0-0,1|(856,-451)|
+1,96,62,78,1,0,43,13,43,192,0,0-0-0,Arial|20||0-0-0,1|(1297,-536)|
+1,97,92,78,1,0,45,13,43,64,0,0-0-0,Arial|20||0-0-0,1|(1100,-631)|
+10,98,individual prevention measures,1881,-217,124,31,8,131,0,40,0,0,0,0,0-0-0,0-0-0,Arial|20||0-0-0,0,0,0,0,0,0
+1,99,88,98,1,0,43,13,43,64,0,0-0-0,Arial|20||0-0-0,1|(1695,-462)|
+1,100,98,44,1,0,45,13,43,64,0,0-0-0,Arial|20||0-0-0,1|(1579,118)|
+1,101,62,46,1,0,43,13,43,64,0,0-0-0,Arial|20||0-0-0,1|(981,-169)|
+10,102,residents' health,2089,-449,58,31,8,3,0,42,0,0,0,0,-1--1--1,0-0-0,Arial|20||255-128-0,0,0,0,0,0,0
+1,103,102,78,1,0,43,13,43,65,0,0-0-0,Arial|20||0-0-0,1|(1691,-814)|
+1,104,98,102,1,0,43,13,43,64,0,0-0-0,Arial|20||0-0-0,1|(2003,-339)|
+1,105,88,102,1,0,43,13,43,192,0,0-0-0,Arial|20||0-0-0,1|(1781,-607)|
+1,106,44,102,1,0,45,13,43,64,0,0-0-0,Arial|20||0-0-0,1|(1609,230)|
+1,107,53,102,1,0,45,13,43,192,0,0-0-0,Arial|20||0-0-0,1|(1318,-481)|
+1,108,59,102,1,0,45,13,43,64,0,0-0-0,Arial|20||0-0-0,1|(2114,-274)|
+1,109,63,102,1,0,43,13,43,64,0,0-0-0,Arial|20||0-0-0,1|(1836,-331)|
+1,110,41,51,1,0,43,12,42,65,0,-1--1--1,Arial|20||0-0-0,1|(1504,85)|
+1,111,62,72,1,0,43,13,43,64,0,0-0-0,Arial|20||0-0-0,1|(1038,-416)|
+1,112,28,23,1,0,45,13,43,64,0,0-0-0,Arial|20||0-0-0,1|(146,217)|
+10,113,Thames tidal defences effectiveness,-764,717,79,46,8,131,0,40,0,0,0,0,0-0-0,0-0-0,Arial|20||0-0-0,0,0,0,0,0,0
+1,114,113,15,1,0,45,12,42,64,0,-1--1--1,Arial|20||0-0-0,1|(-557,513)|
+10,115,existing systems maintenance,-495,1051,99,31,8,3,0,42,0,0,0,0,0-0-0,0-0-0,Arial|20||160-160-160,0,0,0,0,0,0
+1,116,115,37,0,0,43,12,43,64,0,160-160-160,Arial|20||0-0-0,1|(-399,906)|
+1,117,115,113,0,0,43,12,43,64,0,160-160-160,Arial|20||0-0-0,1|(-618,898)|
+1,118,115,33,0,0,43,12,43,64,0,160-160-160,Arial|20||0-0-0,1|(-146,915)|
+1,119,115,32,0,0,43,12,43,64,0,160-160-160,Arial|20||0-0-0,1|(7,923)|
+10,120,sustainable urban development,186,-157,107,31,8,3,0,42,0,0,0,0,0-0-0,0-0-0,Arial|20||160-160-160,0,0,0,0,0,0
+1,121,120,2,0,0,43,12,43,193,0,160-160-160,Arial|20||0-0-0,1|(368,-101)|
+10,122,flood risk monitoring and warning systems,2081,-807,127,31,8,3,0,42,0,0,0,0,0-0-0,0-0-0,Arial|20||160-160-160,0,0,0,0,0,0
+1,123,122,47,0,0,45,12,43,192,0,160-160-160,Arial|20||0-0-0,1|(1595,-353)|
+1,124,122,102,0,0,43,12,43,192,0,160-160-160,Arial|20||0-0-0,1|(2084,-636)|
+1,125,122,88,0,0,43,12,43,64,0,160-160-160,Arial|20||0-0-0,1|(1786,-697)|
+10,126,local community engagement,1438,-963,97,31,8,3,0,42,0,0,0,0,-1--1--1,0-0-0,Arial|20||160-160-160,0,0,0,0,0,0
+1,127,126,88,1,0,43,12,43,65,0,160-160-160,Arial|20||0-0-0,1|(1437,-780)|
+10,128,BG public spaces maintenance,2137,128,106,31,8,3,0,42,0,0,0,0,0-0-0,0-0-0,Arial|20||160-160-160,0,0,0,0,0,0
+1,129,128,62,0,0,43,12,43,64,0,160-160-160,Arial|20||0-0-0,1|(1710,-37)|
+10,130,urban grey and BG infrastructure1,2575,543,114,31,8,3,0,42,0,0,0,0,0-0-0,0-0-0,Arial|20||160-160-160,0,0,0,0,0,0
+1,131,130,102,0,0,43,12,43,64,0,160-160-160,Arial|20||0-0-0,1|(2335,54)|
+1,132,130,44,1,0,45,12,43,64,0,160-160-160,Arial|20||0-0-0,1|(1680,353)|
+1,133,130,59,1,0,45,12,43,64,0,160-160-160,Arial|20||0-0-0,1|(1750,449)|
+1,134,130,62,0,0,43,12,43,64,0,160-160-160,Arial|20||0-0-0,1|(1928,171)|
+1,135,130,10,0,0,45,12,43,64,0,160-160-160,Arial|20||0-0-0,1|(1406,355)|
+1,136,130,41,0,0,43,12,43,64,0,160-160-160,Arial|20||0-0-0,1|(1928,550)|
+1,137,130,39,0,0,45,12,43,64,0,160-160-160,Arial|20||0-0-0,1|(1863,620)|
+10,138,urban grey and BG infrastructure,572,-822,114,31,8,3,0,42,0,0,0,0,0-0-0,0-0-0,Arial|20||160-160-160,0,0,0,0,0,0
+1,139,138,78,0,0,43,12,43,193,0,160-160-160,Arial|20||0-0-0,1|(861,-821)|
+1,140,138,72,0,0,43,12,43,65,0,160-160-160,Arial|20||0-0-0,1|(671,-657)|
+1,141,138,53,0,0,45,12,43,64,0,160-160-160,Arial|20||0-0-0,1|(629,-470)|
+1,142,12,26,1,0,43,0,10,64,0,-1--1--1,|20||0-0-0,1|(-418,346)|
+1,143,26,15,1,0,43,0,42,64,0,-1--1--1,Arial|20||0-0-0,1|(-298,380)|
+1,144,39,32,1,0,43,0,10,192,0,-1--1--1,|20||0-0-0,1|(933,849)|
+1,145,32,41,1,0,43,0,10,64,0,-1--1--1,|20||0-0-0,1|(791,631)|
+1,146,10,32,1,0,45,0,11,64,0,0-0-0,|20||0-0-0,1|(184,520)|
+1,147,10,31,1,0,45,0,11,64,0,0-0-0,|20||0-0-0,1|(224,409)|
+1,148,32,16,1,0,45,0,11,64,0,0-0-0,|20||0-0-0,1|(612,714)|
+///---\\\
+:L<%^E!@
+9:Current
+23:0
+15:0,0,0,0,0,0
+19:50,0
+27:0,
+34:0,
+42:1
+72:0
+73:0
+5:urban grey and BG infrastructure1
+35:Date
+36:YYYY-MM-DD
+37:2000
+38:1
+39:1
+40:2
+41:0
+76:0
+77:0
+78:0
+79:0
+80:0
+81:0
+24:0
+25:0
+26:0
+91:0
+90:0
+87:0
+75:
+43:
